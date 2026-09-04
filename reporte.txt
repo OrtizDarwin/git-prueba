@@ -1,0 +1,28 @@
+LABORATORIO 1 - CRIPTOGRAFÍA Y SUS USOS
+
+1. ¿Cuál es el punto más débil de PGP?
+
+Considero que el punto más débil de PGP es la protección de la clave privada, especialmente la passphrase que la protege. La clave privada debe mantenerse siempre en secreto, porque si otra persona logra obtenerla y también conoce la passphrase, podría utilizarla como si fuera el dueño de la clave. Por eso es importante utilizar una passphrase segura, con una combinación de mayúsculas, números y símbolos y que tenga una longitud adecuada.
+
+
+2. ¿Cuándo es conveniente utilizar solamente cifrado simétrico?
+
+El cifrado simétrico es conveniente cuando las personas que van a comunicarse tienen una forma segura de compartir la clave que utilizarán para cifrar y descifrar la información. Una ventaja es que este tipo de cifrado tiene un buen rendimiento. Sin embargo, el problema aparece cuando participan muchas personas, porque aumenta la cantidad de claves que se necesitan. Según la guía, para n personas se necesitan n(n-1)/2 claves. Por eso considero que el cifrado simétrico funciona mejor cuando son pocos participantes y existe una manera segura de compartir la clave.
+
+
+3. ¿En qué consiste el ciclo de vida del desarrollo de software seguro?
+
+El ciclo de vida del desarrollo de software seguro (SSDLC) consiste en tomar en cuenta la seguridad durante todo el proceso de creación de un software, y no solamente al final. La idea es encontrar posibles problemas de seguridad desde las primeras etapas para poder corregirlos antes de que se conviertan en problemas mayores.
+
+Las etapas que se presentan en la guía son:
+
+1. Planning (Planificación): se planifica el proyecto tomando en cuenta desde el inicio los aspectos de seguridad.
+
+2. Design (Diseño): se diseña el sistema considerando posibles amenazas y las medidas necesarias para protegerlo.
+
+3. Development (Desarrollo): se desarrolla el software aplicando prácticas de programación segura y revisando el código.
+
+4. Testing (Pruebas): se realizan pruebas para encontrar errores y posibles vulnerabilidades de seguridad.
+
+5. Release (Lanzamiento): se pone el software a disposición de los usuarios, manteniendo en cuenta la seguridad y las actualizaciones necesarias.
+
